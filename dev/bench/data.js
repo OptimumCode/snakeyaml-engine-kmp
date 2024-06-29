@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719681062277,
+  "lastUpdate": 1719682833540,
   "repoUrl": "https://github.com/OptimumCode/snakeyaml-engine-kmp",
   "entries": {
     "SnakeKMP benchmark": [
@@ -58,6 +58,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "it.krzeminski.snakeyaml.engine.kmp.benchmark.LoadingTimeBenchmark.loadsOpenAiSchema ( {\"openAiYamlPath\":\"/home/runner/work/snakeyaml-engine-kmp/snakeyaml-engine-kmp/benchmark/data/issues/kmp-issue-204-OpenAI-API.yaml\"} )",
             "value": 18.845666309762898,
+            "unit": "ms/op",
+            "extra": "iterations: 10\nforks: 1\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oleg.smirnov@exactprosystems.com",
+            "name": "Oleg",
+            "username": "OptimumCode"
+          },
+          "committer": {
+            "email": "oleg.smirnov@exactprosystems.com",
+            "name": "Oleg",
+            "username": "OptimumCode"
+          },
+          "distinct": true,
+          "id": "5d253149b3b86f3a89953e1ad339ba783697884f",
+          "message": "Add rights to create comments",
+          "timestamp": "2024-06-29T21:38:32+04:00",
+          "tree_id": "26cf8fd13352f1e3b5185b3be3316caf19fe2bd4",
+          "url": "https://github.com/OptimumCode/snakeyaml-engine-kmp/commit/5d253149b3b86f3a89953e1ad339ba783697884f"
+        },
+        "date": 1719682833140,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "it.krzeminski.snakeyaml.engine.kmp.benchmark.LoadingTimeBenchmark.loadsOpenAiSchema ( {\"openAiYamlPath\":\"/home/runner/work/snakeyaml-engine-kmp/snakeyaml-engine-kmp/benchmark/data/issues/kmp-issue-204-OpenAI-API.yaml\"} )",
+            "value": 20.871632303964738,
             "unit": "ms/op",
             "extra": "iterations: 10\nforks: 1\nthreads: 1"
           }
