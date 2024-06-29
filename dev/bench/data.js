@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719682833540,
+  "lastUpdate": 1719683295169,
   "repoUrl": "https://github.com/OptimumCode/snakeyaml-engine-kmp",
   "entries": {
     "SnakeKMP benchmark": [
@@ -88,6 +88,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "it.krzeminski.snakeyaml.engine.kmp.benchmark.LoadingTimeBenchmark.loadsOpenAiSchema ( {\"openAiYamlPath\":\"/home/runner/work/snakeyaml-engine-kmp/snakeyaml-engine-kmp/benchmark/data/issues/kmp-issue-204-OpenAI-API.yaml\"} )",
             "value": 20.871632303964738,
+            "unit": "ms/op",
+            "extra": "iterations: 10\nforks: 1\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "oleg.smirnov@exactprosystems.com",
+            "name": "Oleg",
+            "username": "OptimumCode"
+          },
+          "committer": {
+            "email": "oleg.smirnov@exactprosystems.com",
+            "name": "Oleg",
+            "username": "OptimumCode"
+          },
+          "distinct": true,
+          "id": "b6daedfa6e9bf4c2730c9857d90e9e3d098af3e2",
+          "message": "Add aSemy to cc",
+          "timestamp": "2024-06-29T21:46:08+04:00",
+          "tree_id": "dc5709fe07994af5e2c6f8edb226ca9b438fb0c6",
+          "url": "https://github.com/OptimumCode/snakeyaml-engine-kmp/commit/b6daedfa6e9bf4c2730c9857d90e9e3d098af3e2"
+        },
+        "date": 1719683294583,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "it.krzeminski.snakeyaml.engine.kmp.benchmark.LoadingTimeBenchmark.loadsOpenAiSchema ( {\"openAiYamlPath\":\"/home/runner/work/snakeyaml-engine-kmp/snakeyaml-engine-kmp/benchmark/data/issues/kmp-issue-204-OpenAI-API.yaml\"} )",
+            "value": 20.065775505384103,
             "unit": "ms/op",
             "extra": "iterations: 10\nforks: 1\nthreads: 1"
           }
