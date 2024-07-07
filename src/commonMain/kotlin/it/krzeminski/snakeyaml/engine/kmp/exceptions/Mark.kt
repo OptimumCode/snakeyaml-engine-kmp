@@ -42,8 +42,7 @@ class Mark @JvmOverloads constructor(
         "Converted to a List<Int>, replace with `codepoints` (may change semantics)",
         ReplaceWith("codepoints"),
     )
-    val buffer: IntArray
-        get() = codepoints.toIntArray()
+    val buffer: IntArray = codepoints.run { if (size > 300_000) IntArray(2048) else codepoints.toIntArray() }
 
     /**
      * Deprecated: please convert [str] to codepoints.
